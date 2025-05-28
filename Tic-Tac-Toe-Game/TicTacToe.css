@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:aqua;
+    background-image: url(tic_tac_toe.jpg);
+    text-align: center;
+}
+
+h1{
+color:white;
+}
+
+.container{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+}
+.allBox{
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:transparent;
+    
+    gap:1.5vmin;
+}
+
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(255, 255, 255,0.2);
+    font-size: 10vmin;
+    color:brown;
+    /* margin:1px; */
+    background-image: url(images.jpg);
+    background-size: cover;
+    border:1px solid white;
+    background-color:white;
+    
+}
+
+.reset{
+    height:2em;
+    width:7em;
+    margin:1px;
+    border-radius: 10px;
+    background-color:white;
+    
+}
+
+#new_btn{
+    height:2em;
+    width:7em;
+    margin:1px;
+    border-radius: 10px;
+    background-color:white;
+}
+#message{
+    color:white;
+    font-size: 8vmin;
+}
+.hide{
+    display:none;
+}
